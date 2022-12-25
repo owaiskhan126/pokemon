@@ -1,0 +1,424 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+body    {
+    background-image: url('./image/imagebackground.webp');
+}
+.background    {
+    width: 85%;
+    margin: 10px auto;
+    height: 2390px;
+    background-image: url('./image/background\ image.jpg');
+    
+}
+.main   {
+    background-color: #e8e8e8;
+}
+.main img   {
+    /* background-color: white; */
+    border: 1px solid #bbababbe;
+    
+}
+.imageall   {
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.main2  {
+    /* border: 2px solid black; */
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.main2 li  {
+    display: inline-block;
+    position: sticky;
+    /* border: 2px solid black; */
+    width: 130px;
+    height: 100px;
+    vertical-align: bottom;
+    
+}
+.main2 img  {
+    margin-top: 15px;
+}
+.home   {
+    background-color: grey;
+    border-radius: 0px 0px 0px 10px;
+}
+.home:hover   {
+    background-color: grey;
+    color: white;
+    border-radius: 0px 0px 0px 10px;
+}
+.pokedex:hover   {
+    background-color: orangered;
+    color: white;
+}
+.video:hover   {
+    background-color: rgb(224, 82, 30);
+    color: white;
+}
+.trading:hover   {
+    background-color: rgb(228, 158, 28);
+    color: white;
+}
+.pokemontv:hover   {
+    background-color: rgb(63, 129, 63);
+    color: white;
+}
+.pokemonevent:hover   {
+    background-color: rgb(135, 206, 235);
+    color: white;
+}
+.news:hover   {
+    background-color: rgb(8, 8, 160);
+    color: white;
+    border-radius: 0px 0px 10px 0px;
+}
+.mainhome   {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 953px;
+    margin: 10px auto;
+    background-color: white;
+}
+.mainhome1      {
+    /* border: 2px solid black; */
+    /* width: 650px; */
+    /* margin: 10px auto; */
+}
+.mainhome2      {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 620px;
+    margin: 10px auto;
+}
+.home1  {
+    /* border: 2px solid black; */
+    width: 600px;
+    background-color: #855bc9;
+    height: 500px;
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+}
+.home1 img  {
+    border-radius: 10px 10px 0px 0px;
+}
+.t1     {
+    font-size: 27px;
+    padding: 10px;
+    color: white;
+}
+.t2     {
+    font-size: 19px;
+    padding-left: 10px;
+}
+.home2  {
+    /* border: 2px solid black; */
+    width: 280px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.home2 img  {
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.home3  {
+    /* border: 2px solid black; */
+    width: 280px;
+    margin: 10px auto;   
+    border-radius: 10px;
+    background-color: orangered;
+}
+.home3 img  {
+    border-radius: 10px 10px 0px 0px;
+}
+.home2 p    {
+    font-size: 25px;
+    padding: 20px;
+    color: white;   
+}
+.home3 p    {
+    font-size: 25px;
+    padding: 20px;
+    color: white;   
+}
+.mainhome3  {
+    /* border: 2px solid black; */
+    width: 320px;
+}
+.home4  {
+    /* border: 2px solid black; */
+    width: 300px;
+    background-color: rgb(54, 54, 233);
+    margin: 30px auto 0px auto;
+    display: flex;
+    border-radius: 10px
+    
+}
+.home4 p    {
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+.home4 img  {
+    border-radius: 10px 0px 0px 10px;
+}
+.home5  {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 300px;
+    background-color: #daa31c;
+    margin: 20px auto;
+    border-radius: 10px
+}
+.home5 p    {
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+.home5 img  {
+    border-radius: 10px 10px 0px 0px;
+}
+.home6  {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 270px;
+    background-color: green;
+    margin: 20px auto;
+    border-radius: 10px
+}
+.home6 p    {
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+}
+.home6 img  {
+    border-radius: 10px 10px 0px 0px;
+}
+.slider     {
+    /* border: 2px solid black; */
+    height: 500px;
+    /* background-color: yellow; */
+    text-align: center;
+}
+.slider img {
+    border: 5px solid black;
+}
+.mainhomeb  {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 920px;
+    height: 1050px;
+    margin: 10px auto;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
+}
+.home7  {
+    /* border: 2px solid black; */
+    width: 280px;
+    background-color: #daa31c;
+    margin-top: 70px;
+}
+.t6     {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+.t7     {
+    padding: 10px 0px 20px 15px;
+    font-size: 18px;
+}
+.home8  {
+    /* border: 2px solid black; */
+    width: 280px;
+    background-color: rgb(53, 154, 194);
+    margin-top: 20px;
+}
+.t8     {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+.t9     {
+    padding: 10px 0px 20px 15px;
+    font-size: 19px;
+}
+.home9  {
+    /* border: 2px solid black; */
+    width: 285px;
+    height: 370px;
+    background-color: green;
+    margin: 20px;
+}
+.t10     {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+.t11     {
+    padding: 10px 0px 20px 15px;
+    font-size: 19px;
+}
+.home10  {
+    /* border: 2px solid black; */
+    width: 285px;
+    background-color: rgb(78, 74, 74);
+    margin-top: 20px;
+}
+.t12     {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: grey;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.t13     {
+    padding: 10px 0px 10px 15px;
+    font-size: 27px;
+    color: white;
+}
+.t14     {
+    padding: 0px 0px 20px 15px;
+    font-size: 19px;
+    color: white;
+}
+.home11  {
+    /* border: 2px solid black; */
+    width: 285px;
+    height: 410px;
+    background-color: #855bc9;
+    margin-top: 35px;
+}
+.t15     {
+    padding: 10px 0px 10px 15px;
+    font-size: 27px;
+    color: white;
+}
+.t16     {
+    padding: 0px 0px 20px 15px;
+    font-size: 19px;
+}
+.home12  {
+    /* border: 2px solid black; */
+    width: 285px;
+    height: 410px;
+    background-color: gray;
+    margin-top: 10px;
+}
+.t17     {
+    padding: 10px 0px 10px 15px;
+    font-size: 27px;
+}
+.t18     {
+    padding: 0px 0px 20px 15px;
+    font-size: 19px;
+    color: rgb(75, 72, 72);
+}
+.home13  {
+    /* border: 2px solid black; */
+    width: 285px;
+    background-color: gray;
+    margin-top: 10px;
+}
+.t19     {
+    padding: 10px 0px 10px 15px;
+    font-size: 27px;
+    background-color: orange;
+    color: white;
+}
+.t20     {
+    padding: 10px 0px 20px 15px;
+    font-size: 19px;
+    color: rgb(70, 67, 67);
+    background-color: rgb(53, 154, 194);
+}
+.mainfooter {
+    border: 2px solid black;
+    height: 350px;
+    background-color:  #1f1f1f;
+ 
+}
+.mainfooter2    {
+    display: flex;
+    /* border: 2px solid green; */
+    margin-left: 20%;
+    padding-top: 20px;
+    
+}
+.footer1 h2  {
+    border-right: 2px solid black;
+    width: 300px;
+    padding-bottom: 20px;
+    /* padding-left: 30%; */
+    color: white;
+}
+.footer1 li  {
+    border-right: 2px solid black;
+    color: grey;
+    list-style: inside;
+    font-size: 20px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.footer1 a li:hover  {
+    color: white;
+}
+.mainfooter a   {
+    text-decoration: none;
+}
+.footer2  {
+    border-right: 2px solid black;
+    width: 300px;
+    /* padding: 20px 0px 20px 0px; */
+    text-align: center;
+    color: white;
+}
+.footer2 img    {
+    padding-left: 10px;
+}
+.footer2 img:hover    {
+    width: 45px;
+}
+.b1  {
+    font-size: 10px;
+    font-weight: bold;
+    width: 60px;
+    height: 100px;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #51b765;
+    color: white;
+    position: fixed;
+    bottom: 50%;
+    left: 7.5%;
+    border-bottom: 2px;
+    border-left: 2px;
+}
+.b1:hover   {
+    background-color: #12ad31;
+}
+.b2  {
+    font-size: 10px;
+    font-weight: bold;
+    width: 60px;
+    height: 70px;
+    border-radius: 0px 0px 10px 0px;
+    background-color: #616161;
+    color: white;
+    position: fixed;
+    bottom: 43%;
+    left: 7.5%;
+    border-top: 2px;
+    border-left: 2px;
+}
+.b2:hover   {
+    background-color: blue;
+}
