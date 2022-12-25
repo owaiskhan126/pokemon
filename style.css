@@ -422,3 +422,8 @@ body    {
 .b2:hover   {
     background-color: blue;
 }
+.lorem  {
+    background-color: yellow;
+    color: black;
+    width: 300px;
+}
