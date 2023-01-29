@@ -1,0 +1,35 @@
+.md {
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+.md input {
+    border: 2px solid black;
+    background-color: white;
+}
+.md table tr td {
+    /* border: 2px solid black; */
+    text-align: center;
+    border-radius: 30px;
+}
+.md table td {
+    margin: 50px;
+}
+.md table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.md table {
+    width: 100%;
+}
+.md td {
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.md input {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 20px;
+}

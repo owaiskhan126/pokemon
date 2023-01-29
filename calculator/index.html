@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="md">
+        <input type="text" id="inp" disabled>
+        <table>
+            <tr>
+                <td colspan="2" class="bg-light" onclick="clr ('C')">C</td>
+                <td class="bg-light" onclick="clrone ('-1')">X</td>
+                <td class="bg-warning" onclick="cal ('/')"> &#247; </td>
+            </tr>
+            <tr>
+                <td class="bg-secondary text-white" onclick="cal ('7')">7</td>
+                <td class="bg-secondary text-white" onclick="cal ('8')">8</td>
+                <td class="bg-secondary text-white" onclick="cal ('9')">9</td>
+                <td class="bg-warning" onclick="cal ('*')">&#215;</td>
+            </tr>
+            <tr>
+                <td class="bg-secondary text-white" onclick="cal ('4')">4</td>
+                <td class="bg-secondary text-white" onclick="cal ('5')">5</td>
+                <td class="bg-secondary text-white" onclick="cal ('6')">6</td>
+                <td class="bg-warning" onclick="cal ('-')">-</td>
+            </tr>
+            <tr>
+                <td class="bg-secondary text-white" onclick="cal ('1')">1</td>
+                <td class="bg-secondary text-white" onclick="cal ('2')">2</td>
+                <td class="bg-secondary text-white" onclick="cal ('3')">3</td>
+                <td class="bg-warning" onclick="cal ('+')">+</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="bg-secondary text-white" onclick="cal ('0')">0</td>
+                <td class="bg-secondary text-white" onclick="cal ('.')">.</td>
+                <td class="bg-warning" onclick="sum ('=')">=</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
